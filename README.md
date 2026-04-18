@@ -1,5 +1,20 @@
 # Rappi Analytics Web - Technical Documentation
 
+## Demo - Video de demostración
+
+Mira el video de funcionamiento de la interfaz conversacional:
+
+<details>
+<summary>Ver video demo</summary>
+
+https://github.com/user-attachments/files/video-demo.mp4
+
+</details>
+
+O descarga directamente: [video-demo.mp4](files/video-demo.mp4)
+
+---
+
 ## Overview
 
 Rappi Analytics Web is a modern Next.js dashboard for visualizing and analyzing food delivery price comparisons across multiple platforms (Uber Eats, Rappi, Didi Food).
@@ -123,6 +138,33 @@ exportData(data, filename, 'xlsx') // Excel format
 | Variable | Description | Default |
 |----------|-------------|---------|
 | NEXT_PUBLIC_API_URL | Backend API URL | http://127.0.0.1:8000 |
+
+## Getting API Keys
+
+### SerpAPI (for OSINT search)
+
+Used for fallback search when scraping fails.
+
+1. **Sign up** at: https://serpapi.com
+2. Sign in with **GitHub** or **Google**
+3. Verify **email** and **phone**
+4. Choose **Free** plan (100 searches/month) or paid
+5. Go to **Manage API Key** in dashboard
+6. Copy your API key
+
+**Free**: 250 searches/month (U.S. Legal Shield, ZeroTrace Mode)
+**Paid**: From $75/month for more searches
+
+### Google Gemini API (for AI agent)
+
+Used for conversational AI agent.
+
+1. **Sign up** at: https://aistudio.google.com/app/apikey
+2. Click **Create API Key**
+3. Copy the key
+
+**Free** (with limits): 15 requests/min, 1M tokens/day
+**Paid**: $0.35-$0.50 per 1M tokens
 
 ## Installation
 
