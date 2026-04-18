@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff7f2;
+  --foreground: #21120f;
+  --rappi-red: #ff1f1f;
+  --rappi-orange: #ff6a00;
+  --rappi-ink: #21120f;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: rgba(255, 106, 0, 0.28);
+}
