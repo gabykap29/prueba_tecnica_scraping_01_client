@@ -1,5 +1,7 @@
 # Rappi Analytics Web - Technical Documentation
 
+**Repositorio**: https://github.com/gabykap29/prueba_tecnica_scraping_01_client.git
+
 ## Demo - Video de demostración
 
 Mira el video de funcionamiento de la interfaz conversacional:
